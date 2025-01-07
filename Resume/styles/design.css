@@ -1,0 +1,267 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #F5F7FA;
+}
+
+/* Main */
+.main {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+}
+
+.main-content {
+    background: #FFFFFF;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    padding: 105px 90px;
+}
+
+/* user */
+
+.about {
+    margin-bottom: 40px;
+}
+
+.about-position {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 20px;
+    width: 153px;
+    height: 17px;
+}
+
+.about-name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    color: #0A0909;
+    margin-bottom: 25px;
+}
+
+.about-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    width: 400px;
+    height: 120px;
+}
+
+.projects {
+    margin-bottom: 50px;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.projects-list {
+    padding: 0;
+    margin-left: 15px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.projects-item {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.project-bracket {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.work-position {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.period {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin-bottom: 10px;
+}
+
+.line {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.work-list {
+    padding: 0;
+    margin-left: 15px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.work-list-item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    width: 510px;
+}
+
+.education {
+    margin-top: 40px;
+}
+
+.organization,
+.education-position {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+}
+
+.education-position {
+    margin-bottom: 10px;
+}
+
+.profile {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.project,
+.project-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.project-link {
+    margin-left: 10px;
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: #1E2939;
+    padding-top: 40px;
+    width: 370px;
+}
+
+.photo {
+    width: 370px;
+    margin-bottom: 50px;
+}
+
+/* Contacts */
+
+.contact-type {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    margin-right: 5px;
+    color: #FFFFFF;
+}
+
+.sidebar-title {
+    color: #FFFFFF;
+}
+
+.contact-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #4C5561;
+}
+
+.contacts, 
+.tech-skills, 
+.soft-skills {
+    margin-left: 40px;
+}
+
+.tech-skills {
+    margin-bottom: 45px;
+}
+
+.tech-skills-list,
+.soft-skills-list {
+    color: #FFFFFF;
+    padding: 0;
+    margin-left: 15px;
+}
+
+.contacts {
+    margin-bottom: 50px;
+}
+
+.tech-skills-item,
+.soft-skills-item {
+    color: #FB6D3A;
+}
+
+.tech-skills-text,
+.soft-skills-text {
+    color: #FFFFFF;
+}
+
+/* Внешние отступы: 
+    margin-top: 40px; - верх
+    margin-bottom: 80px; - низ 
+    margin-left: 100px; - лево
+    margin-right: 120px; - право
+
+    margin: 40px 80px 100px 120px;
+
+    margin: 30px; - равномерно
+    
+    margin: 50px 70px; - верх/низ, лево/право */
+
+/* Внутрение отступы:
+    padding-top: 20px; - верх
+    padding-bottom: 40px; - низ
+    padding-left: 70px; - лево
+    padding-right: 90px; - право 
+    
+    padding: 40px 80px 100px 120px;
+
+    padding: 30px; - равномерно
+    
+    padding: 50px 70px; - верх/низ, лево/право */
